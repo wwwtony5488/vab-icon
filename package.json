@@ -1,0 +1,42 @@
+{
+  "name": "vab-icon",
+  "author": "chuzhixin <1204505056@qq.com>",
+  "version": "0.0.1",
+  "homepage": "http://chu1204505056.gitee.io/vue-admin-beautiful",
+  "main": "dist/vab-icon.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chuzhixin/zx-icon"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --inline-vue",
+    "build:lib": "vue-cli-service build --target lib src/components/export.js",
+    "lint": "vue-cli-service lint",
+    "update": "ncu -u&&cnpm i",
+    "push": "start ./deploy.sh"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "core-js": "^3.7.0",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-eslint": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.1.0",
+    "prettier": "^2.1.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

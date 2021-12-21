@@ -6732,13 +6732,6 @@ var vue_fontawesome_index_es = __webpack_require__("4419");
 var copyright = "chuzhixin1204505056@qq.com";
 var nodeEnv = "production"; //既然代码你已经找到这里了，我相信你有能力做的比我更好，也知道你能轻易移除MIT作者信息，但我还是恳求你保留浏览器控制台打印的框架信息，能够帮忙宣传一下框架，万分感谢！！！
 
-if (nodeEnv !== "development") {
-  document.writeln('<script>let a = "%c  ' + copyright + '  %c 本项目基于vue-admin-beautiful开源版构建 ";let b = "color: #fadfa3; background: #030307; padding:8px 0;";let c = "background: #fadfa3; padding:8px 0;";console.log(a, b, c)</script>');
-}
-
-
-
-
 index_es["c" /* library */].add(_iconsCache);
 var ZxIcon = vue_fontawesome_index_es["a" /* FontAwesomeIcon */];
 /* harmony default export */ var components_export = (ZxIcon);

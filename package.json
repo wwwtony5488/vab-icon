@@ -1,7 +1,7 @@
 {
   "name": "vab-icon",
   "author": "chuzhixin <1204505056@qq.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://chu1204505056.gitee.io/vue-admin-beautiful",
   "main": "dist/vab-icon.umd.min.js",
   "repository": {
